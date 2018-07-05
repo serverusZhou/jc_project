@@ -1,0 +1,77 @@
+.green {
+  color: green;
+}
+
+.order-btn {
+  text-align: center;
+}
+
+.primary {
+  margin-left: 15px;
+}
+
+.table-center tr > th,
+.table-center tr > td {
+  text-align: left;
+}
+
+.padding-btm-20 {
+  padding-bottom: 20px;
+}
+
+.title-right {
+  display: inline-block;
+}
+
+.title-middle {
+  margin: 0 10px;
+}
+
+.btn-bottom {
+  margin-top: 10px;
+}
+
+.text {
+  position: relative;
+  top: -45px;
+  width: 30px;
+  left: -32px;
+  transform: rotate(45deg);
+  color: #FFF;
+}
+
+.table {
+  text-align: center;
+}
+
+.table th {
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+.tip-title {
+  display: block;
+  width: 200px;
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+.col8 {
+  width: 30%;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: #417505;
+}
+
+.padding-right-20 {
+  padding-right: 20px;
+}

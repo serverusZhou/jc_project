@@ -1,0 +1,85 @@
+.green {
+  color: green;
+}
+
+.order-btn {
+  text-align: center;
+}
+
+.padding-btm-20 {
+  padding-bottom: 20px;
+}
+
+.deal-group {
+  border-top: solid 1px #EEE;
+  padding: 10px 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.edit-group {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.add-group {
+  padding-bottom: 20px;
+}
+
+.add-attr {
+  position: relative;
+  display: inline-block;
+}
+
+.add-attr a {
+  color: orange;
+}
+
+.triangle-topright {
+  position: relative;
+  width: 0;
+  height: 0;
+  top: -14px;
+  right: -24px;
+  border-top: 55px solid #E95337;
+  border-left: 55px solid transparent;
+}
+
+.text {
+  position: relative;
+  top: -45px;
+  width: 30px;
+  left: -32px;
+  transform: rotate(45deg);
+  color: #FFF;
+}
+
+.table {
+  text-align: center;
+}
+
+.table th {
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+.col8 {
+  width: 30%;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: #417505;
+}
+
+.padding-right-20 {
+  padding-right: 20px;
+}

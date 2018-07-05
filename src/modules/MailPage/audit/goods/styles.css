@@ -1,0 +1,21 @@
+
+.audit-title {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.goodsDetailImg {
+  margin-bottom: 32px;
+}
+
+.goodsDetailImg img {
+  margin-right: 10px;
+}
+
+.goodsImg {
+  border: solid 1px #E8E8E8;
+  padding: 10px;
+  margin-bottom: 16px;
+}

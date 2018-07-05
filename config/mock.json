@@ -1,0 +1,14 @@
+{
+  "host": "http://api.jc/",
+  "projectId": "26FPdLTxLo",
+  "token": "1whR19UEktN8JAcZVlF8Nw",
+  "inject": {
+    "/api/supplychain/order/list/v1": {
+      "code": 1,
+      "errmsg": "我是被注入的"
+    }
+  },
+  "dict": {
+    "operateType": ["1", "2"]
+  }
+}

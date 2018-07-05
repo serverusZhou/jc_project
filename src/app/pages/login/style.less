@@ -1,0 +1,122 @@
+.user_login_wrapper {
+  background-image: url('Assets/images/login/background.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_title {
+  position: absolute;
+  top: -50px;
+  left: 160px;
+  font-size: 22px;
+}
+
+.layout_wrapper {
+  height: 290px;
+  width: 400px;
+  margin: 31px;
+
+  &_error {
+    color: #ffffff;
+    background: #fd5e60;
+    font-size: 14px;
+    position: fixed;
+    z-index: 10;
+    padding: 10px 5px;
+    width: 330px;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: -30px;
+  }
+
+  &_box {
+    background: rgba(255, 255, 255, 0.5);
+    height: 290px;
+    width: 400px;
+  }
+}
+
+.tip_arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 23px solid #fd5e60;
+  top: 40px;
+  border-top-width: 10px;
+  left: 160px;
+}
+
+.box_name {
+  width: 340px;
+  height: 51px;
+  line-height: 50px;
+  background: #ffffff;
+  position: absolute;
+  margin: 50px 29px 0;
+
+  &_icon {
+    width: 24px;
+    height: 30px;
+    float: left;
+    margin: 12px 5px 8px 15px;
+  }
+
+  &_input {
+    height: 49px;
+    width: 280px;
+    font-size: 14px;
+    float: right;
+    margin-right: 0;
+    padding-left: 10px;
+    outline: none;
+    border: 0;
+  }
+}
+
+.box_password {
+  width: 340px;
+  height: 51px;
+  line-height: 50px;
+  background: #ffffff;
+  position: absolute;
+  margin: 130px 29px 0;
+
+  &_icon {
+    width: 21px;
+    height: 30px;
+    float: left;
+    margin: 12px 5px 8px 15px;
+  }
+
+  &_input {
+    height: 49px;
+    width: 280px;
+    font-size: 14px;
+    float: right;
+    margin-right: 0;
+    padding-left: 10px;
+    outline: none;
+    border: 0;
+  }
+}
+
+.box_button {
+  width: 340px;
+  height: 50px;
+  background: #0089e0;
+  border-radius: 4px;
+  margin-top: 210px;
+  border: 0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 30px;
+}

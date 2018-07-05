@@ -1,0 +1,100 @@
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+.rightButtons {
+  text-align: right;
+  margin-bottom: 12px;
+}
+// common
+.layoutBase {
+  position: relative;
+  width: 100%;
+  & > ul {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    & > li {
+      flex: 1;
+      list-style-type: none;
+      float: left;
+      height: 100%;
+      box-sizing: border-box;
+      border: 6px solid #ffffff;
+      & > div {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border: 1px solid #e8e8e8;
+        & > div {
+          color: #ffffff;
+          padding: 15px;
+          background: rgba(0, 0, 0, .45);
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: auto;
+        }
+        & > img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+// 1+4
+.layout01 {
+  padding-top: 14.08%;
+}
+// 模板2(1个726*362，3个272*362)
+.layout02 {
+  padding-top: 23.48%;
+  & > ul {
+    & > li {
+      flex: 3;
+      &:first-child {
+        flex: 8;
+      }
+    }
+  }
+}
+// 模板3(6个320*426)
+.layout03 {
+  padding-top: 22.19%;
+}
+// 2排 共6个
+.layout04 {
+  & > ul {
+    height: 190px;
+    & > li {
+      width: 33.33%;
+    }
+  }
+}
+// 首页 4个 / 视频首页 4个
+.layout05 {
+  padding-top: 25.42%;
+}
+// 6个
+.layout06 {
+  padding-top: 28.5%;
+  & > ul {
+    & > li {
+      flex: 3;
+      &:first-child {
+        flex: 8;
+      }
+    }
+  }
+}
+// 7个
+.layout07 {
+  padding-top: 9.4%;
+}
